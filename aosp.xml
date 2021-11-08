@@ -5,7 +5,7 @@
           revision="12" />
 
 <remote name="skunk"
-          fetch="https://gitlab.com/skunkworkx-os"
+          fetch="https://github.com/skunkworkx-os"
           revision="12" />
 
 <manifest>
