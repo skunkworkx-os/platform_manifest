@@ -25,5 +25,7 @@
  
   <project name="vendor_qcom_crosshatch" path="vendor/qcom/crosshatch" remote="gitlab" />
   <project name="vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab" />
+  <project name="vendor_qcom_bonito" path="vendor/qcom/bonito" remote="gitlab" />
+  <project name="vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab" />
 
 </manifest>
