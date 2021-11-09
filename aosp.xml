@@ -3,11 +3,11 @@
 <manifest>
 
   <remote name="gitlab"
-          fetch="https://gitlab.com/aclegg2011"
+          fetch="git@gitlab.com:aclegg2011"
           revision="12" />
 
   <remote name="skunk"
-          fetch="https://github.com/skunkworkx-os"
+          fetch="git@github.com:skunkworkx-os"
           revision="12" />
 
  <!-- Remove AOSP repos -->
