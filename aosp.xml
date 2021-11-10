@@ -12,7 +12,9 @@
 
  <!-- Remove AOSP repos -->
   <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bramble" />
   <remove-project name="platform/build" />
+
   <project path="manifest" name="platform_manifest" remote="skunk" />
   <project path="build/make" name="platform_build_make" remote="skunk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -25,6 +27,9 @@
   </project>
  
   <project name="device_google_bonito" path="device/google/bonito" remote="skunk" />
+  <project name="device_google_bramble" path="device/google/bramble" remote="skunk" />
+  <project name="vendor_qcom_bramble" path="vendor/qcom/bramble" remote="gitlab" />
+  <project name="vendor_google_devices_bramble" path="vendor/google_devices/bramble" remote="gitlab" />
   <project name="vendor_qcom_crosshatch" path="vendor/qcom/crosshatch" remote="gitlab" />
   <project name="vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab" />
   <project name="vendor_qcom_bonito" path="vendor/qcom/bonito" remote="gitlab" />
