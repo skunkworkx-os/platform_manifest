@@ -26,6 +26,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
  
+  <project name="android_vendor_aosp" path="vendor/aosp" remote="skunk" />
+
   <project name="device_google_bonito" path="device/google/bonito" remote="skunk" />
   <project name="device_google_bramble" path="device/google/bramble" remote="skunk" />
   <project name="vendor_qcom_bramble" path="vendor/qcom/bramble" remote="gitlab" />
