@@ -5,10 +5,17 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/aclegg2011"
           revision="12.1" />
-
+  
+  <remote name="MindTheGapps" 
+          fetch="https://gitlab.com/MindTheGapps/"
+          revision="sigma" />
+  
+  
   <remote name="skunk"
           fetch="https://github.com/skunkworkx-os"
           revision="12.1" />
+  
+  
 
  <!-- Remove AOSP repos -->
   <remove-project name="device/google/bonito" />
@@ -34,4 +41,8 @@
   <project name="vendor_qcom_bramble" path="vendor/qcom/bramble" remote="gitlab" />
   <project name="vendor_google_devices_bramble" path="vendor/google_devices/bramble" remote="gitlab" />
   -->
+  
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" />
+
 </manifest>
