@@ -27,10 +27,11 @@
   </project>
  
   <project name="device_google_bonito" path="device/google/bonito" remote="skunk" />
+  <project name="vendor_qcom_bonito" path="vendor/qcom/bonito" remote="gitlab" />
+  <project name="vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab" />
+  <!-- Bramble 
   <project name="device_google_bramble" path="device/google/bramble" remote="skunk" />
   <project name="vendor_qcom_bramble" path="vendor/qcom/bramble" remote="gitlab" />
   <project name="vendor_google_devices_bramble" path="vendor/google_devices/bramble" remote="gitlab" />
-  <project name="vendor_qcom_bonito" path="vendor/qcom/bonito" remote="gitlab" />
-  <project name="vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab" />
-
+  -->
 </manifest>
