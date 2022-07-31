@@ -8,7 +8,7 @@
 
   <remote name="skunk"
           fetch="https://github.com/skunkworkx-os"
-          revision="12" />
+          revision="12.1" />
 
  <!-- Remove AOSP repos -->
   <remove-project name="device/google/bonito" />
